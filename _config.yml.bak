@@ -14,7 +14,7 @@ menu:
   关于我: /about/
 
 # Link to your avatar | 填写头像地址
-avatar: /img/realtiger.png
+avatar: /img/avatar.png
 
 # Small icon of Your site | 站点小图标地址
 favicon: /favicon.png
@@ -31,7 +31,7 @@ favicon: /favicon.png
 root_url: 
 
 # Year of Site Creation | 网站成立年份
-since: 2017
+since: 2016
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -40,16 +40,16 @@ since: 2017
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto:realtiger.alu@gmail.com"
+  Email: "mailto:123@123.com"
   #新浪微博: "sina weibo"
-  GitHub: "https://github.com/realtiger"
+  GitHub: "#"
   #V2EX: "#"
   RSS: "/atom.xml"
-  知乎: "https://www.zhihu.com/people/realtiger"
+  #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
   #SegmentFault: ""
-  博客园: "http://www.cnblogs.com/cdinc/"
+  #博客园: "cnblogs"
   #CSDN: ""
   #Coding: ""
   #网易云音乐: "netease"
@@ -187,7 +187,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 有些事情，不知道为什么，折腾折腾就好了，这大概就是灵异事件吧。我在制造灵异事件的道路上越走越远。。。。。。
+aboutme: 专注于前端
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
@@ -230,7 +230,7 @@ tab_title_change:
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
-  on: true
+  #on: true
   onload: false
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
