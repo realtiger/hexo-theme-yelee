@@ -9,16 +9,14 @@
         <br>
       </div>  
 	<div id="donate_guide" class="donate_bar center hidden" >
-		<!-- 支付宝打赏图案 -->
-		<div>
-			<img src="/img/alipay.png" alt="支付宝打赏">
-			<span>支付宝打赏</span>
-		</div>
-		<!-- 微信打赏图案 -->
-		<div>
-			<img src="/img/wechatpay.png" alt="微信打赏">
-			<span>微信打赏<span>
-		</div>
+		<a href="<%=theme.alipay%>" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
+			<!-- 支付宝打赏图案 -->
+			<img src="<%=theme.alipay%>"  alt="支付宝打赏" title="支付宝打赏" id="alipay"/>
+		</a>
+		<a href="<%=theme.wechat%>" title="Wechat_Scan_Payment" class="fancybox" rel="article0">
+			<!-- 微信打赏图案 -->
+			<img src="<%=theme.wechat%>" alt="微信打赏" title="微信打赏" id="wechatpay"/> 
+		</a>
     </div>
 	<script type="text/javascript">
 		document.getElementById('btn_donate').onclick = function(){

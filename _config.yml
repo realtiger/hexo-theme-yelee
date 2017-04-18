@@ -288,10 +288,14 @@ progressBar:
   type: "minimal"  # Keep Quotes | 保留引号避免出错
   color: blue
 
-#是否开启打赏功能
+# 是否开启打赏功能
 donate: true
-#打赏文案
-donate_message: 欣赏此文？求鼓励，求支持！
+# 打赏文案
+donate_message: Enjoy it? Donate me!  欣赏此文？求鼓励，求支持！
+# 微信打赏图片
+wechat: /img/wechatpay.png
+# 支付宝打赏图片
+alipay: /img/alipay.png
 
 CDN:
   jquery: //cdn.bootcss.com/jquery/2.2.4/jquery.min.js
