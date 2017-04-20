@@ -37,6 +37,10 @@
     <link href="<%- theme.CDN.fancybox_css %>" rel="stylesheet">
 <% } %>
 
+<% if (theme.newfancybox){ %>
+    <link href="<%- theme.CDN.fancybox_css %>" rel="stylesheet">
+<% } %>
+
 <% if (theme.progressBar.on) { %>
     <script src="<%- theme.CDN.pace_js %>"></script>
     <link href="//cdn.bootcss.com/pace/1.0.2/themes/<%= theme.progressBar.color || 'blue'%>/pace-theme-<%= theme.progressBar.type || 'minimal'%>.css" rel="stylesheet">
@@ -70,7 +74,7 @@ if ( is_archive() ) {
 
 <script>
     var yiliaConfig = {
-        fancybox: <%=theme.fancybox%>,
+        fancybox: <%=theme.newfancybox%>,
         animate: <%=theme.animate%>,
         isHome: <%=is_home()%>,
         isPost: <%=is_post()%>,
